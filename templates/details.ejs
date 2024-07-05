@@ -1,0 +1,96 @@
+<aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+      <figure class="avatar-box">
+        <img src=<%=user.image%> alt="Tamim Ehsan" width="80">
+      </figure>
+
+      <div class="info-content">
+        <h1 class="name" title=<%=user.name%>>Mohammad <br/> Tamimul Ehsan</h1>
+        <!-- <p class="title">
+          Software Engineer, Chaldal
+          <br>
+          2023 - Present
+        </p> -->
+        
+      </div>
+
+      <button class="info_more-btn" data-sidebar-btn>
+        <span>Show Contacts</span>
+        <ion-icon name="chevron-down"></ion-icon>
+      </button>
+    </div>
+      <ul class="social-list">
+        <% if(user.linkedin) { %>
+            <li class="social-item">
+                <a href=<%=user.linkedin%> class="social-link" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+        <% } %>
+
+        <% if(user.github) { %>
+            <li class="social-item">
+                <a href=<%=user.github%> class="social-link" target="_blank" rel="noopener noreferrer">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+        <% } %>
+
+        <% if( user.codeforces) { %>
+            <li class="social-item">
+                <a href=<%=user.codeforces%> class="social-link" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/images/code-forces.svg" style="width: 18px; height: 18px;">
+                </a>
+              </li>
+        <% } %>
+        
+        <% if(user.icpc) { %>
+            <li class="social-item">
+                <a href=<%=user.icpc%> class="social-link" target="_blank" rel="noopener noreferrer">
+                  <img src="assets/images/icpc.svg" style="width: 18px; height: 18px;">
+                </a>
+              </li>
+        <% } %>
+      </ul>
+    </div>
+
+    <div class="separator"></div>
+    <div class="sidebar-info_more">
+      <ul class="contacts-list">
+
+        <% if(user.email) { %>
+            <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+                  <a href="mailto:<%=user.email%>" class="contact-link"><%=user.email%></a>
+                </div>
+              </li>
+        <% } %>
+        <% if(user.phone) { %>
+            <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="phone-portrait-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Phone</p>
+                  <a href="tel:<%=user.phone%>" class="contact-link"><%=user.phone%></a>
+                </div>
+              </li>
+        <% } %>
+
+        <% if(user.location) {%>
+            <li class="contact-item">
+                <div class="icon-box">
+                  <ion-icon name="location-outline"></ion-icon>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Location</p>
+                  <address><%=user.location%></address>
+                </div>
+              </li>
+        <% } %>
+      </ul>
+  </aside>

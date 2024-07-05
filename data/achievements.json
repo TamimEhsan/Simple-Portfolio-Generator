@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Hackathons",
+        "items": [
+            {
+                "title": "Nasa Space Apps Challenge 2020",
+                "position" : "Honorable Mention",
+                "location": "Global",
+                "date": "January 2021",
+                "description": "Our team \"BUET Zenith\" became Champion in Regional round and directly qualified for the global round and got honorable mention in the global round."
+            },{
+                "title": "National STEM Competition 2021",
+                "position" : "Champion",
+                "location": "Dhaka, Bangladesh",
+                "date": "December 2021",
+                "description": "BUET IDRICO proposed a IOT based solution to the problem of water usage and distribution management for city water supplier WASA and became champion."
+            },{
+                "title": "International Blockchain Olympiad 2022",
+                "position" : "Honorable Mention",
+                "location": "Global",
+                "date": "June 2022",
+                "description": "Our team spondon developed \"A Blockchain Based Approach to Digitalize Health Sector for Better Transparency, Privacy and Security\" and bacame 1st Runner Up in Blockchain Olympiad Bangladesh 2022 and recieved honorable mention International round."
+            },{
+                "title": "Code Samurai 2022",
+                "position" : "1st Runners Up",
+                "location": "Dhaka, Bangladesh",
+                "date": "Decemeber 2022",
+                "description": "Our team BUET Storm's End developed a solution for JICA to monitor the progress of their projects in Bangladesh and became 1st Runners Up."
+            }
+        ]
+    },
+    {
+        "title": "Programming Competitions",
+        "items": [
+            {
+                "title": "ICPC Dhaka Regional Final 2020",
+                "position" : "Ranked 7th",
+                "location": "Dhaka, Bangladesh",
+                "date": "August 2021"
+            },{
+                "title": "ICPC ASIA DHAKA REGIONAL CONTEST 2021",
+                "position" : "Ranked 8th",
+                "location": "Dhaka, Bangladesh",
+                "date": "October 2022"
+            },{
+                "title": "ICPC ASIA DHAKA REGIONAL CONTEST 2023",
+                "position" : "Ranked 8th",
+                "location": "Dhaka, Bangladesh",
+                "date": "October 2023"
+            },{
+                "title": "RUET IUPC 2022",
+                "position" : "Ranked 10th",
+                "location": "Rajshahi, Bangladesh",
+                "date": "June 2022"
+            },{
+                "title": "SUST IUPC 2022",
+                "position" : "Ranked 7th",
+                "location": "Sylhet, Bangladesh",
+                "date": "June 2022"
+            }
+        ]
+    }
+]

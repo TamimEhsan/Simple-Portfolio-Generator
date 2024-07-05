@@ -1,0 +1,35 @@
+[
+    {
+        "institution": "Bangladesh University of Engineering and Technology",
+        "degree": "B.Sc. in Computer Science and Engineering",
+        "duration" : "Apr 2019 - May 2024",
+        "gpa" : "CGPA: 3.90/4.00",
+        "description" : "Ranked in the top 15% of class with two Dean's List awards for merit. Additionally, was recognized once for outstanding extra curricular activities. ",
+        "courses" : [
+            "CSE 305 - Computer Architecture",
+            "CSE 307 - Software Engineering",
+            "CSE 309 - Compiler Design",
+            "CSE 313 - Operating Systems",
+            "CSE 317 - Artificial Intelligence",
+            "CSE 321 - Computer Networks",
+            "CSE 405 - Computer Security",
+            "CSE 409 - Computer Graphics",
+            "CSE 463 - Introduction to Bioinformatics",
+            "CSE 471 - Machine Learning",
+            "MATH 245 - Statistics and Probability",
+            "MATH 247 - Linear Algebra"
+        ]
+    },{
+        "institution": "Notre Dame College, Dhaka",
+        "degree": "Higher Secondary Certificate (HSC)",
+        "duration" : "2018",
+        "gpa" : "GPA: 5.00/5.00"
+    },{
+        "institution": "Ideal School & College, Motijheel, Dhaka",
+        "degree" : "Secondary School Certificate (SSC)",
+        "duration" : "2016",
+        "gpa" : "GPA: 5.00/5.00",
+        "description" : "Received board scholarship."
+    }
+]
+

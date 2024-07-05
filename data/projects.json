@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Algorithm Visualizer",
+        "image": "algoviz.jpg",
+        "description": "Designed and implemented a web app that illustrates more than 20 algorithms, assisting over 50,000 people in grasping the step by step processes of these algorithms. The algorithms were broken down to simple pieces and then used different self made methods to visualize them.",
+        "date": "2021",
+        "github": "https://github.com/TamimEhsan/AlgorithmVisualizer",
+        "stacks" : [
+            "React"
+        ]
+    },{
+        "title": "kagOJ",
+        "image": "kagoj.jpg",
+        "description": "Built an online judge platform specialized to host lab test and evaluation of CSE, BUET. Automated code compilation, validation and evaluation are aimed to provide efficiency to both the teachers and students. Built the sandbox using seccomp rules and cgroups to run the process in isolated and restricted environment.",
+        "date": "2022",
+        "github": "https://github.com/TamimEhsan/KagOJ",
+        "stacks" : [
+            "Nodejs",
+            "React",
+            "PostgreSQL"
+        ]
+    },{
+        "title": "C Compiler",
+        "image": "compiler.jpg",
+        "description": "Built a compiler from scratch with modern optimizations for a subset of C language.",
+        "date": "2023",
+        "github": "https://github.com/TamimEhsan/C-Compiler",
+        "stacks" : [
+            "Bison",
+            "Yacc",
+            "C"
+        ]
+    },{
+        "title": "Rokomari",
+        "image": "rokomari.jpg",
+        "description": "Mimics the most popular Bangladeshi online bookstore with separate admin and buyer module. Nearly every feature from the original website was built.",
+        "date": "2020",
+        "github": "https://github.com/TamimEhsan/SQuirreL",
+        "youtube": "https://youtu.be/eeUI5hNmdYo?si=_fHloVP1bic4cctq",
+        "stacks" : [
+            "Nodejs",
+            "PostgreSQL"
+        ]
+    },{
+        "title": "EcoSync",
+        "image": "ecosync.jpg",
+        "description": "Built a system for the purpose of garbage management of Dhaka North City Corporation. It automates the process of documenting reports, optimum assignment of trucks, routing system etc. Developed a optimal delivery system with the help of K means clustering. A optimal routing was developed with travelling salesman problem (TSP) and 3/2 approximation of TSP with the help of Valhalla open source routing engine and Google street map SDK.",
+        "date": "2020",
+        "github": "https://github.com/BUET-BeeCrypt/EcoSync",
+        "stacks" : [
+            "Nodejs",
+            "React",
+            "PostgreSQL"
+        ]
+    }
+]

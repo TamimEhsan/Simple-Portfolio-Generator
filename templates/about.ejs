@@ -1,0 +1,23 @@
+<article class="about active" data-page="about">
+
+    <header>
+      <h2 class="h2 article-title">About me</h2>
+    </header>
+
+    <section class="about-text">
+        <% about.forEach(function(para){ %> 
+            <p><%=para%></p>
+        <% }); %>
+  </section>
+    <div class="modal-container" data-modal-container>
+
+      <div class="overlay" data-overlay></div>
+
+      <section class="testimonials-modal">
+        <button class="modal-close-btn" data-modal-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </section>
+
+    </div>
+  </article>

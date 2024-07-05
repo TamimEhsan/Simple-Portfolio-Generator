@@ -1,0 +1,37 @@
+<article class="achievements" data-page="achievements">
+
+    <header>
+      <h2 class="h2 article-title">Achievements</h2>
+    </header>
+
+    <% achievements.forEach(function(sector){ %>
+        <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="trophy-outline"></ion-icon>
+              </div>
+              <h3 class="h3"><%=sector.title%></h3>
+            </div>
+            <ol class="timeline-list">
+                <% sector.items.forEach(function(item){ %>
+                    <li class="timeline-item">
+                        <div class="education-header">
+                            <h4 class="h4 timeline-item-title"><%=item.title%></h4>
+                            <span><%=item.location%></span>
+                        </div>
+                        <div class="education-header">
+                            <span><%=item.position%></span>
+                            <span><%=item.date%></span>
+                        </div>
+                        <p class="timeline-text">
+                            <%=item.description%>
+                        </p>
+                    </li>
+                <% }); %>
+            </ol>
+        </section>
+    <% }); %>
+
+   
+    
+</article>

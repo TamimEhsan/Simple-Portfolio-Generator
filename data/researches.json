@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Faster and Improved CD-MAWS with Suffix Automata",
+        "subtitle": "Undergraduate thesis work",
+        "coauthors": [
+            "Dr. M. Saifur Rahman (Supervisor)"
+        ],
+        "keywords": [
+            "Phylogeny",
+            "Suffix Automata"
+        ],
+        "description": "We introduce a refined CD-MAWS method for phylogeny estimation, significantly reducing computational complexity from max(O(m^n), O(m^n log n)) to max(O(m^n), O(mnk)) while maintaining tree quality. Here, m is the number of species, n is the size of DNA of a species, and k is the maximum MAW length. This advancement is achieved through a revised cosine distance calculation method, binary encoding of MAWs, and the adoption of suffix automata for MAW generation, addressing the main computational bottleneck and setting a better runtime for alignment-free phylogenetic analysis"
+    }
+]

@@ -1,0 +1,54 @@
+<article class="projects" data-page="projects">
+
+    <header>
+      <h2 class="h2 article-title">Projects</h2>
+    </header>
+
+    <section class="blog-posts">
+      <ul class="blog-posts-list">
+        
+        <% projects.forEach(function(project){ %>
+          <li class="blog-post-item">
+            <figure class="blog-banner-box">
+              <img src="./assets/images/<%=project.image%>" alt="<%=project.title%>" loading="lazy">
+            </figure>
+              <div class="blog-content">
+                <div class="blog-header">
+                  <h3 class="h3 blog-item-title"><%=project.title%></h3>
+                  <div class="project-linkes">
+                    <a href="<%=project.github%>" target="_blank" rel="noopener noreferrer">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    <% if(project.youtube) { %>
+                      <a href="<%=project.youtube%>" target="_blank" rel="noopener noreferrer">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                      </a>
+                    <% } %>
+                  </div>
+                </div>
+                <div class="">
+                  🏷️
+                    <% project.stacks.forEach(function(stack){ %>
+                      <code class="tags"><%=stack%></code>
+                      
+                    <% }); %>
+                  
+                    <span class="dot"></span>
+                     <!-- <br/> -->
+                     
+                  <time class="blog-text" datetime="<%=project.date%>"><%=project.date%></time>
+                </div>
+                 <hr/> 
+
+                <p class="blog-text">
+                  <%=project.description%>
+                </p>
+              </div>
+          </li>
+        <% }); %>
+
+      </ul>
+
+    </section>
+
+  </article>

@@ -1,0 +1,38 @@
+<article class="experience" data-page="experience">
+
+    <header>
+      <h2 class="h2 article-title">Experience</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        <% experiences.forEach(function(exp){ %>
+          <li class="timeline-item">
+            <div class="education-header">
+              <a class="h4 timeline-item-title" href="www.google.com"><%=exp.company%></a> 
+              <span><%=exp.duration%></span>
+            </div>
+            <div class="education-header">
+              <h5 class="h5 timeline-item-subtitle"><%=exp.position%></h5>
+              <span><%=exp.location%></span>
+            </div>
+            <p class="timeline-text">
+              <%=exp.description%>
+            </p>
+            <% if(exp.projects && exp.projects.length > 0) { %>
+                <br/>
+                <p class="timeline-text">Some of my Notable works are:</p>
+                <div style="margin-left: 15px;"></div>
+                <ul>
+                  <% exp.projects.forEach(function(project){ %>
+                    <li class="circle"><p class="timeline-text-bulletpoint"><%=project%></p></li>
+                  <% }); %>
+                </ul>
+              
+            <% } %>
+          </li>
+        <% }); %>
+
+    </section>
+  </article>

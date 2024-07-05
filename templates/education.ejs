@@ -1,0 +1,39 @@
+<article class="education" data-page="education">
+
+    <header>
+        <h2 class="h2 article-title">Education</h2>
+    </header>
+
+    <section class="timeline">
+      <ol class="timeline-list">
+
+        <% education.forEach(function(edu){ %>
+          <li class="timeline-item">
+            <div class="education-header">
+              <h4 class="h4 timeline-item-title"><%=edu.institution%></h4>
+              <span><%=edu.duration%></span>
+            </div>
+            <div class="education-header">
+              <h5 class="h5 timeline-item-subtitle"><%=edu.degree%></h5>
+              <span><%=edu.gpa%></span>
+            </div>
+            <p class="timeline-text">
+              <%=edu.description%>
+            </p>
+            <% if(edu.courses && edu.courses.length > 0) { %>
+              <div class="multicol-list">
+                <div class="blog-text" >Notable Courses</div>
+                <ul>
+                  <% edu.courses.forEach(function(course){ %>
+                    <li><p class="timeline-text"><%=course%></p></li>
+                  <% }); %>
+                </ul>
+              </div>
+            <% } %>
+          </li>
+        <% }); %>
+       
+      </ol>
+
+    </section>
+  </article>
