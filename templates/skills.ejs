@@ -1,0 +1,38 @@
+<article class="skills" data-page="skills">
+
+  <header>
+    <h2 class="h2 article-title">Skills</h2>
+  </header>
+
+  <% skills.forEach(function(skill){ %>
+    <section class="timeline">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <ion-icon name="code-slash-outline"></ion-icon>
+        </div>
+        <h3 class="h3">
+          <%=skill.name%>
+        </h3>
+      </div>
+
+      <div >
+        <% skill.stacks.forEach(function(stack){ %>
+          <div  style="float: left; margin-right: 8px; margin-bottom: 8px;">
+                <!-- <span class="tags" style="font-size: 20px; float: left;" ><%=stack.name%></span> -->
+                <img alt=<%=stack.name%> style="float: left;" src=<%=stack.badge%> />
+                <!-- <% stack.projects.forEach(function(project){ %>
+                  <a style="float: left;" href=<%=project%> > 📎 </a>  
+                <% }); %> -->
+                
+          </div>
+          
+        <% }); %>
+      </div>
+    </section>
+    <br/>
+    <br/>
+    <div>  </div>
+    <hr>
+    <br/>
+    <% }); %>
+</article>

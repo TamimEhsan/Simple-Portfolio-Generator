@@ -54,6 +54,10 @@
           <li class="navbar-item">
             <button class="navbar-link active" data-nav-link>About</button>
           </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
           
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Education</button>
@@ -86,6 +90,12 @@
       -->
 
       <%- include('G:\\MISC\\portfolio-gen\\templates\\about.ejs', {about: about}) %>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <%- include('G:\\MISC\\portfolio-gen\\templates\\skills.ejs', {skills: skills}) %>
       
       <!--
         - #EDUCATION
@@ -100,7 +110,7 @@
       <!--
         - #EXPERIENCE
       -->
-      <%- include('G:\\MISC\\portfolio-gen\\templates\\experience.ejs', {experiences: experiences}) %>
+      <%- include('G:\\MISC\\portfolio-gen\\templates\\experiences2.ejs', {experiences: experiences}) %>
 
       <!--
         - #PROJECTS

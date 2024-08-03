@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Pridesys IT Ltd",
+        "description": "",
+        "location": "Dhaka, Bangladesh",
+        "positions": [
+            {
+                "position": "Software Engineer II",
+                "duration": "June 2024 - Present",
+                "description": "",
+                "projects": [
+                    "Redesigned application from a monolithic to microservices architecture, using Kafka to decouple services, which improved system reliability, and fault isolation, facilitated independent service scaling, and decreased deployment times.",
+                    "Incorporated CI/CD with github workflows, accelerating integration and deployment across multiple microservices and reducing development time by 20%",
+                    "Used Helm for k8s package management, Hashicorp’s Vault for secret management inside K8s, Terraform and Ansible for infrastructure provision and management"
+                ]
+            },{
+                "position": "Junior Software Engineer",
+                "duration": "Oct 2023 - May 2024",
+                "description": "",
+                "projects": [
+                    "Shifted the backend architecture from deprecated Oracle Forms to Spring Boot 3 resulting in better performance, and security, with support for modern RESTful APIs and a reduction in maintenance costs.",
+                    "Shifted the database from Oracle to PostgreSQL which reduced the overall cost by 70%",
+                    "Successfully deployed the backend and database of the cloud ERP on ACS (Azure Cloud Service) using AKS (Azure Kubernetes Service), ACR (Azure Container Registry), Cloud storage and NGINX which in turn increased reliability and availability by 20% and reduced infrastructure cost by appx 30%" 
+                ]
+            }
+        ]
+    },{
+        "name": "ICT Cell, BUET",
+        "location": "Dhaka, Bangladesh",
+        "description": "",
+        "positions": [
+            {
+                "position": "Junior Backend Developer",
+                "duration": "Oct 2021 - Mar 2023",
+                "description": "I worked as a backend developer at ICT Cell of BUET. My primary goal was to develop a job portal for BUET aiming to eliminate manual book keeping. I was involved in designing the overall architecture and implementing system. Additionally, I contributed to the development of backend and deployment. Some of my notable works include:",
+                "projects": [
+                    "Designed and developed the application architecture for the job portal which decreased the overall life cycle of an application from 3 months to 1 week.",
+                    "Designed and developed the application scrutiny system which reduced the time to scrutinize an application from 1 month to 1 week.",
+                    "The overall system improved the communication between multiple departments and reduced the time to hire a candidate by 300%.",
+                    "Developed the backend for the job listing system which completely removed the necessity of manual job posting and decreasing the cost by 100%",
+                    "Automated the deployment of the system using github actions which reduced the deployment time by 50%.",
+                    "The system is actively being used by BUET for hiring and has facilitated more than 10,000 applicants from the start of the system."
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,183 @@
+[
+    {
+        "name": "Languages",
+        "stacks": [
+            {
+                "name": "C",
+                "badge":"https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&badge=c&badgeColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "C++",
+                "badge":"https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&badge=c%2B%2B&badgeColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Java",
+                "badge":"https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Javascript",
+                "badge":"https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Assembly",
+                "badge":"https://img.shields.io/badge/assembly%20script-%23000000.svg?style=for-the-badge&logo=assemblyscript&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Bash",
+                "badge":"https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            }
+        ]
+    },{
+        "name": "Backend",
+        "stacks": [
+            {
+                "name": "NodeJS",
+                "badge":"https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Spring Boot",
+                "badge":"https://img.shields.io/badge/spring%20boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            }
+        ]
+    },{
+        "name": "Frontend",
+        "stacks": [
+            {
+                "name": "ReactJs",
+                "badge":"https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "EJS",
+                "badge":"https://img.shields.io/badge/ejs-6DA55F?style=for-the-badge&logo=node.js&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            }
+        ]
+    },{
+        "name": "Data Systems",
+        "stacks": [
+            {
+                "name": "PostgreSQL",
+                "badge":"https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "OracleDB",
+                "badge":"https://img.shields.io/badge/Oracle%20DB-F80000?style=for-the-badge&logo=oracle&logoColor=white",
+                "projects":[
+                    "https://github.com/","https://github.com/"
+                ]
+            },{
+                "name": "Redis",
+                "badge":"https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Hadoop",
+                "badge":"https://img.shields.io/badge/Apache%20Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black",
+                "projects":[]
+            }
+        ]
+    },{
+        "name": "Tools",
+        "stacks": [
+            {
+                "name": "Git",
+                "badge":"https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Docker",
+                "badge":"https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Kubernetes",
+                "badge":"https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Hashicorp's Vault",
+                "badge":"https://img.shields.io/badge/vault-%23FFEC6E.svg?style=for-the-badge&logo=vault&logoColor=black",
+                "projects":[]
+            },{
+                "name": "Nginx",
+                "badge":"https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white",
+                "projects":[]
+            }
+        ]
+    },{
+        "name": "Testing",
+        "stacks": [
+            {
+                "name": "JUnit5",
+                "badge":"https://img.shields.io/badge/junit5-%2325A162.svg?style=for-the-badge&logo=junit5&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Testcontainer",
+                "badge":"https://img.shields.io/badge/TestContainer-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Graphana K6",
+                "badge":"https://img.shields.io/badge/K6-%237D64FF.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+                "projects":[]
+            }
+        ]
+    },{
+        "name": "DevOps",
+        "stacks": [
+            {
+                "name":"Terraform",
+                "badge":"https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Helm",
+                "badge":"https://img.shields.io/badge/helm-%230e1689.svg?style=for-the-badge&logo=helm&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Github Workflow",
+                "badge":"https://img.shields.io/badge/github%20workflow-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white",
+                "projects":[]
+            }
+        ]
+    },{
+        "name": "Clouds",
+        "stacks": [
+            {
+                "name": "Azure Cloud Service",
+                "badge":"https://img.shields.io/badge/azure%20cloud-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Azure Kubernetes Service",
+                "badge":"https://img.shields.io/badge/azure%20kubernetes-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Azure Cloud Storage",
+                "badge":"https://img.shields.io/badge/azure%20storage-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+                "projects":[]
+            },{
+                "name": "Azure Container Registry",
+                "badge":"https://img.shields.io/badge/azure%20container%20registry-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white",
+                "projects":[]
+            }
+        ]
+    }
+]
